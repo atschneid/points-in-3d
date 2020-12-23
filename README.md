@@ -1,6 +1,8 @@
 # points-in-3d
 Put some points on a parametrized 3d shape, iteratively maximizing the Euclidean distance between them.
 
+![10 points on a sphere](10plots500.png "10 points on a sphere after 500 iterations")
+
 Gradient descent algorithm iteratively minimizes the sum of the squared inverses between points in 3-space.
 
 Uses Julia's nifty ForwardDiff gradient calculation.
